@@ -1,5 +1,5 @@
 DESCRIPTION = "Embedded Linux Device Driver Tests based on Linux Test Project"
-HOMEPAGE = "http://arago-project.org/git/projects/test-automation/ltp-ddt.git"
+HOMEPAGE = "meta-oe/recipes-devtools/ltp-ddt/ltp-ddt_0.0.4.bb:SRC_URI"
 SECTION = "console/utils"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=0636e73ff0215e8d672dc4c32c317bb3"
@@ -15,7 +15,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 SRCREV = "5fba3d42f126ce13333fb7d0412d729b753ee5a4"
 BRANCH ?= "master"
 
-SRC_URI = "git://arago-project.org/git/projects/test-automation/ltp-ddt.git;protocol=git;branch=${BRANCH}"
+SRC_URI = "git://git.ti.com/test-automation/ltp-ddt.git;protocol=git;branch=${BRANCH}"
 
 S = "${WORKDIR}/git"
 
